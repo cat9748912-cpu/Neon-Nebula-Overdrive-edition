@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Nebula: Overdrive Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <div class="hud">
+            <div id="score-display">SCORE: 0000</div>
+            <div class="shield-container">
+                <span class="shield-label">SHIELD:</span>
+                <div class="shield-bar-bg">
+                    <div id="shield-bar-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="start-screen" class="screen-overlay">
+            <h1>Neon Nebula</h1>
+            <p class="subtitle">OVERDRIVE EDITION</p>
+            <p class="controls">Use [A][D] or Arrow Keys to Move. [Spacebar] to Fire Weapon.</p>
+            <button id="start-btn">Launch interceptor</button>
+        </div>
+
+        <div id="game-over-screen" class="screen-overlay hidden">
+            <h1 class="defeat-text">System Defeat</h1>
+            <p id="final-score">Final Score: 0</p>
+            <button id="restart-btn">Respawn Unit</button>
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
