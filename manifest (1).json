@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Neon Nebula: Overdrive Edition",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "NeonNebula",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "com.neonnebula.game",
+  "description": "Blast your way through neon galaxies in Neon Nebula: Overdrive Edition! Take control of a powerful starfighter in this high-octane, retro-inspired arcade space shooter. \n\nFeaturing fluid physics, progressive enemy waves, and dynamic weapon upgrade systems, you'll need sharp reflexes to survive the particle-rich cosmic chaos. Dodge hostile firing lines, collect power-ups, and obliterate the alien variants to secure your spot as the ultimate space pilot. \n\nOptimized natively for Windows with smooth keyboard and mouse controls!"
+}
