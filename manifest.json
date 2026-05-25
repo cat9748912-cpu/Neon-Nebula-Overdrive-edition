@@ -2,17 +2,24 @@
   "short_name": "NeonNebula",
   "name": "Neon Nebula: Overdrive Edition",
   "description": "An intense neon retro arcade space shooter built with high-quality particle effects and physics.",
+  "id": "com.neonnebula.game",
+  "start_url": "index.html",
+  "background_color": "#050510",
+  "theme_color": "#00f2fe",
+  "display": "standalone",
+  "orientation": "landscape",
   "icons": [
+    {
+      "src": "https://pub-c5e31b5cdafb419a86a69d5d341ebd84.r2.dev/mock-assets/images/human-eye-cross-section.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "https://pub-c5e31b5cdafb419a86a69d5d341ebd84.r2.dev/mock-assets/images/human-eye-cross-section.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     }
-  ],
-  "start_url": "index.html",
-  "background_color": "#050510",
-  "theme_color": "#00f2fe",
-  "display": "fullscreen",
-  "orientation": "landscape"
+  ]
 }
